@@ -10,7 +10,7 @@ void sentinalSearch(int array[], int numberOfElements, int elementToBeSearched){
     array[numberOfElements - 1] = elementToBeSearched;
     int i = 0;
 
-    while (array[i] = elementToBeSearched)
+    while (array[i] != elementToBeSearched)
     {
         i++;
         // Put last element back
